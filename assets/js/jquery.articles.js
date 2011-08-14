@@ -36,13 +36,10 @@
 				$('<div class="article" id="article-'+ i +'"></div>').appendTo(c);
 				var articleFile = o.folder +'/article-'+ i +'.html'
 				if(articleFile != "") {
-					// alert("yes");
 					$("#article-"+i).load(articleFile);
 				}
 				
-				// $("#article-"+i).load(o.folder +'/article-'+ i +'.html');
 				
-				// $('p').css("color", "#f00");
 			}
 			
 			
